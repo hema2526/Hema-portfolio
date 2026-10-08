@@ -2,24 +2,28 @@ body {
     font-family: Arial, sans-serif;
     background-color: #eaf2ff;
     text-align: center;
-    padding: 30px;
+    padding: 15px;
+    margin: 0;
 }
 
 .card {
     background-color: white;
-    max-width: 500px;
-    margin: auto;
-    padding: 30px;
+    width: 90%;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 30px 20px;
     border-radius: 15px;
+    box-sizing: border-box;
 }
 
 h1 {
     color: #2563eb;
+    font-size: 32px;
 }
 
 .role {
     color: #555;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 h2 {
@@ -30,13 +34,14 @@ h2 {
 p {
     color: #333;
     line-height: 1.6;
+    font-size: 17px;
 }
 
 .skills span {
     display: inline-block;
     background-color: #2563eb;
     color: white;
-    padding: 8px 12px;
+    padding: 10px 14px;
     margin: 5px;
     border-radius: 20px;
 }
@@ -45,7 +50,26 @@ button {
     background-color: #2563eb;
     color: white;
     border: none;
-    padding: 12px 25px;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-size: 17px;
+}
+form input,
+form textarea {
+    width: 90%;
+    padding: 12px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 16px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    margin-top: 5px;
+    cursor: pointer;
 }
