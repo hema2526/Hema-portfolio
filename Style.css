@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf2ff;
+    text-align: center;
+    padding: 30px;
+}
+
+.card {
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+h1 {
+    color: #2563eb;
+}
+
+.role {
+    color: #555;
+    font-size: 18px;
+}
+
+h2 {
+    color: #7c3aed;
+    margin-top: 25px;
+}
+
+p {
+    color: #333;
+    line-height: 1.6;
+}
+
+.skills span {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+}
